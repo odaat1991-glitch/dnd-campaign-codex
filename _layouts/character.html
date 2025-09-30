@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<article class="character">
+
+  <header class="character-header">
+    <h1 class="character-title">{{ page.name }}</h1>
+  </header>
+
+  <div class="character-content">
+    {{ content }}
+  </div>
+
+  <h2>Stats</h2>
+  <ul>
+    <li><strong>Race:</strong> {{ page.race }}</li>
+    <li><strong>Class:</strong> {{ page.class }}</li>
+    <li><strong>Strength:</strong> {{ page.str }}</li>
+    <li><strong>Dexterity:</strong> {{ page.dex }}</li>
+    <li><strong>Constitution:</strong> {{ page.con }}</li>
+    <li><strong>Intelligence:</strong> {{ page.int }}</li>
+    <li><strong>Wisdom:</strong> {{ page.wis }}</li>
+    <li><strong>Charisma:</strong> {{ page.cha }}</li>
+  </ul>
+
+</article>
