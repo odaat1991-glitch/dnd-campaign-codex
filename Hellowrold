@@ -1,0 +1,4 @@
+# This command creates a new Jekyll site in the current directory
+jekyll new . --force
+# This command builds the site and starts a local web server
+bundle exec jekyll serve
