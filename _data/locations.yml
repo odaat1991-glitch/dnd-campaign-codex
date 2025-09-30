@@ -1,0 +1,4 @@
+- name: "Elturel"
+  x: 50
+  y: 50
+  description: "The starting city."
