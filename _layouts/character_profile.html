@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="character-sheet">
+  <h1>{{ page.name }}</h1>
+  <p><strong>Player:</strong> {{ page.player }}</p>
+  <p><strong>Class:</strong> {{ page.class }} | <strong>Race:</strong> {{ page.race }}</p>
+
+  <img src="{{ page.image_url }}" alt="Portrait of {{ page.name }}">
+
+  <div class="character-bio">
+    {{ content }}
+  </div>
+</article>
