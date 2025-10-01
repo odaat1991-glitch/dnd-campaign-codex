@@ -1,0 +1,30 @@
+---
+layout: default
+title: DM Dashboard
+---
+<h1>DM Dashboard</h1>
+<p>Use this page to control what content is visible to players. Your settings are saved in this browser.</p>
+
+<h2>Map Locations</h2>
+<div id="map-locations-dashboard">
+    {% for location in site.data.locations %}
+    <div>
+        <input type="checkbox" id="loc-{{ location.name | slugify }}" data-type="location" data-id="{{ location.name | slugify }}">
+        <label for="loc-{{ location.name | slugify }}">{{ location.name }}</label>
+    </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h2>Lore Entries</h2>
+<div id="lore-entries-dashboard">
+    {% for lore in site.data.lore %}
+    <div>
+        <input type="checkbox" id="lore-{{ lore.id }}" data-type="lore" data-id="{{ lore.id }}">
+        <label for="lore-{{ lore.id }}">{{ lore.title }}</label>
+    </div>
+    {% endfor %}
+</div>
+
+<script src="{{ '/assets/js/dm_dashboard.js' | relative_url }}"></script>

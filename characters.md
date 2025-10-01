@@ -1,17 +1,19 @@
 ---
-layout: page
+layout: default
 title: Characters
-permalink: /characters/
 ---
+# The Party
 
-## Party Members
+Meet the brave (or foolish) souls who have found themselves trapped in Avernus.
 
-<ul>
+<div class="character-gallery">
   {% for character in site.characters %}
-    <li>
+    <div class="character-card">
       <a href="{{ character.url | relative_url }}">
-        {{ character.name }}
+        <img src="{{ character.portrait | relative_url }}" alt="Portrait of {{ character.title }}">
+        <h3>{{ character.title }}</h3>
+        <p>{{ character.player }}</p>
       </a>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>

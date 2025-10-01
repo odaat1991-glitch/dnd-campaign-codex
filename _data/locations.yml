@@ -1,4 +1,19 @@
-- name: "Elturel"
-  x: 50
-  y: 50
-  description: "The starting city."
+- name: Elturel
+  x: 45 # Percentage from left
+  y: 30 # Percentage from top
+  description: "The fallen city, hanging in the sky of Avernus by massive infernal chains. The Companion, now a black, necrotic sphere, looms over it."
+
+- name: Fort Knucklebone
+  x: 35
+  y: 55
+  description: "A chaotic scrapyard-fortress run by Mad Maggie and her gang of redcaps. A potential source for Infernal War Machines."
+
+- name: The River Styx
+  x: 60
+  y: 65
+  description: "This foul river flows through Avernus, its waters capable of stealing the memories of anyone who touches them."
+
+- name: The Wandering Emporium
+  x: 75
+  y: 45
+  description: "A mobile market built on the backs of giant infernal creatures, run by the rakshasa Mahadi. It's one of the few places to find rare goods and services in Hell."
