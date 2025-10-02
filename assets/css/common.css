@@ -120,11 +120,31 @@ hr {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
-  overflow-wrap: break-word; /* Break long words */
-  word-wrap: break-word; /* Legacy fallback */
+  overflow-wrap: break-word;
+  word-wrap: break-word; /* Fallback */
 }
 
-/* Give the description column more space */
-.inventory-table th:last-child, .inventory-table td:last-child {
-  width: 40%; /* Adjust as needed */
+/* Define column widths */
+.inventory-table th:nth-child(1), .inventory-table td:nth-child(1) { width: 10%; } /* Character */
+.inventory-table th:nth-child(2), .inventory-table td:nth-child(2) { width: 15%; } /* Item Name */
+.inventory-table th:nth-child(3), .inventory-table td:nth-child(3) { width: 10%; } /* Category */
+.inventory-table th:nth-child(4), .inventory-table td:nth-child(4) { width: 8%; }  /* Rarity */
+.inventory-table th:nth-child(5), .inventory-table td:nth-child(5) { width: 8%; }  /* Attunement */
+.inventory-table th:nth-child(6), .inventory-table td:nth-child(6) { width: 8%; }  /* Quantity */
+.inventory-table th:nth-child(7), .inventory-table td:nth-child(7) { width: 10%; } /* Location */
+.inventory-table th:nth-child(8), .inventory-table td:nth-child(8) { width: 10%; } /* Date */
+.inventory-table th:nth-child(9), .inventory-table td:nth-child(9) { width: 21%; } /* Description */
+
+.edit-button {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  background-color: #04AA6D; /* A nice green */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.edit-button:hover {
+  background-color: #058d5a;
 }

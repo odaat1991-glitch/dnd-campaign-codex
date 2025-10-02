@@ -30,20 +30,6 @@ permalink: /inventory/
   </tbody>
 </table>
 
-<style>
-  .edit-button {
-    display: inline-block;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    background-color: #04AA6D; /* A nice green */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  .edit-button:hover {
-    background-color: #058d5a;
-  }
-</style>
+
 
 <script src="{{ '/assets/js/inventory.js' | relative_url }}"></script>
