@@ -1,0 +1,17 @@
+{% if site.logo %} {% if site.logo contains 'nes-' %} {% else %} {% endif %} {% endif %}
+
+
+{{ SITE.TITLE | DEFAULT: SITE.GITHUB.REPOSITORY_NAME }}
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/characters">Characters</a>
+  <a href="/map">Map</a>
+  <a href="/inventory">Inventory</a>
+  <a href="/dm_dashboard.html">DM Dashboard</a>
+</nav>
+
+{{ site.description | default: site.github.project_tagline }}
+
+{% if site.social %} {% include social.html %} {% endif %}
+{% if site.show_downloads %} {% include downloads.html %} {% endif %}
