@@ -9,7 +9,7 @@ con: 15
 int: 13
 wis: 10
 cha: 8
-portrait: /assets/images/portraits/njia.webp
+portrait: /assets/images/portraits/Njia of the Windportrait1.png
 ---
 
 {{ page.name }} is a {{ page.race }} {{ page.class }}.
