@@ -108,3 +108,23 @@ hr {
   pointer-events: none; /* So the tooltip doesn't interfere with mouse events on the map */
   z-index: 100;
 }
+
+/* Inventory Table Styles */
+.inventory-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.inventory-table th, .inventory-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  overflow-wrap: break-word; /* Break long words */
+  word-wrap: break-word; /* Legacy fallback */
+}
+
+/* Give the description column more space */
+.inventory-table th:last-child, .inventory-table td:last-child {
+  width: 40%; /* Adjust as needed */
+}
