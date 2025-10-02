@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Assumes locationsData is available globally from an inline script on the page
         if (typeof locationsData !== 'undefined' && mapContainer) {
             const visibleLocations = locationsData.filter(loc => {
-                const locationId = loc.name.toLowerCase().replace(/[']/g, '').replace(/\s+/g, '-');
+                const locationId = loc.name.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
                 return visibilitySettings.locations && visibilitySettings.locations[locationId];
             });
 

@@ -1,24 +1,74 @@
 - name: Baldur's Gate
-  x: 15 # Percentage from left
-  y: 60 # Percentage from top
+  x: 23
+  y: 67
   description: "A sprawling city of trade and treachery on the Sword Coast. The party's adventure begins here, amidst the machinations of refugees and cultists."
 
 - name: Elturel
-  x: 65
-  y: 50
+  x: 51
+  y: 60
   description: "The holy city and capital of Elturgard. Its fields are a common destination for pilgrims and traders traveling out from Baldur's Gate."
 
-- name: Fort Morninglord
-  x: 45
-  y: 40
-  description: "A stronghold of the Hellriders, built to guard the crossing of the River Chionthar. It stands as a bastion of order between the two great cities."
-
 - name: Scornubel
-  x: 85
-  y: 35
+  x: 67
+  y: 63
   description: "Known as the Caravan City, Scornubel is a bustling, chaotic trading post on the north side of the river, a crossroads for merchants and adventurers alike."
 
-- name: The Reaching Woods
-  x: 70
-  y: 85
-  description: "A vast and ancient forest that marks the southern border of this region. It is rumored to hold many secrets, both fey and forgotten."
+- name: Candlekeep
+  x: 18
+  y: 86
+  description: "The library-fortress found at the end of Lion's Way was the greatest repository of written works in the Realms."
+
+- name: Beregost
+  x: 22
+  y: 88
+  description: "Located on the Coast Way, this small town was protected by the nearby clergy of Lathander."
+
+- name: Daggerford
+  x: 8
+  y: 2
+  description: "This pastoral town was built around a castle, strategically located where the Trade Way intersected with the Delimbiyr river."
+
+- name: Soubar
+  x: 48
+  y: 41
+  description: "This stopover settlement located on the Trade Way was home to the Black Abbey, a long-abandoned monastery of Bane."
+
+- name: Triel
+  x: 60
+  y: 58
+  description: "Located on the Trade Way, this village acted as a grain repository for the farmers for the region."
+
+- name: Fort Morninglord
+  x: 46
+  y: 62
+  description: "A stronghold of the Hellriders, built to guard the crossing of the River Chionthar. It stands as a bastion of order between the two great cities."
+
+- name: Reaching Woods
+  x: 72
+  y: 59
+  description: "A number of humanoid races, including elves, humans and even gnolls maintained shrines to their respective deities within this large forest."
+
+- name: Fields of the Dead
+  x: 36
+  y: 51
+  description: "This expanse of verdant farmland earned its name from the great number of old battles fought on its soil."
+
+- name: Cloak Wood
+  x: 19
+  y: 75
+  description: "An ancient forest, home to vicious beasts and enigmatic fey, that was rumored to contain several portals that linked to other regions of Faerûn."
+
+- name: Wood of Sharp Teeth
+  x: 44
+  y: 77
+  description: "This smaller forest was rumored to be the hunting grounds for a number of dire beasts, hydras and even dragons."
+
+- name: Dragonspear Castle
+  x: 29
+  y: 24
+  description: "Priests of Tempus established a shrine within the famous fortress to act as a bulwark against the hordes of fiends."
+
+- name: Durlag's Tower
+  x: 40
+  y: 89
+  description: "This dark keep, the former stronghold of Durlag Trollkiller, has been taken over by dragons, illithids and Will-o'-wisps."
