@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Map of Avernus
+title: Interactive Map
 ---
-# An Interactive Map of Avernus
+# The Sword Coast: From Baldur's Gate to Elturel
 
 Click on the markers to learn more about key locations in our campaign.
 

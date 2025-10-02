@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const placeMarkers = () => {
         // Assumes locationsData is available globally from an inline script on the page
         if (typeof locationsData !== 'undefined' && mapContainer) {
-            const visibleLocations = locationsData.filter(loc => visibilitySettings.locations && visibilitySettings.locations[loc.name.replace(/\s+/g, '-').toLowerCase()]);
+            const visibleLocations = locationsData.filter(loc => {
+                const locationId = loc.name.toLowerCase().replace(/[']/g, '').replace(/\s+/g, '-');
+                return visibilitySettings.locations && visibilitySettings.locations[locationId];
+            });
 
             visibleLocations.forEach(loc => {
                 const marker = document.createElement('div');

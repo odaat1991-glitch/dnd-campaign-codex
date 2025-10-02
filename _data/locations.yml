@@ -1,19 +1,24 @@
+- name: Baldur's Gate
+  x: 15 # Percentage from left
+  y: 60 # Percentage from top
+  description: "A sprawling city of trade and treachery on the Sword Coast. The party's adventure begins here, amidst the machinations of refugees and cultists."
+
 - name: Elturel
-  x: 45 # Percentage from left
-  y: 30 # Percentage from top
-  description: "The fallen city, hanging in the sky of Avernus by massive infernal chains. The Companion, now a black, necrotic sphere, looms over it."
+  x: 65
+  y: 50
+  description: "The holy city and capital of Elturgard. Its fields are a common destination for pilgrims and traders traveling out from Baldur's Gate."
 
-- name: Fort Knucklebone
-  x: 35
-  y: 55
-  description: "A chaotic scrapyard-fortress run by Mad Maggie and her gang of redcaps. A potential source for Infernal War Machines."
+- name: Fort Morninglord
+  x: 45
+  y: 40
+  description: "A stronghold of the Hellriders, built to guard the crossing of the River Chionthar. It stands as a bastion of order between the two great cities."
 
-- name: The River Styx
-  x: 60
-  y: 65
-  description: "This foul river flows through Avernus, its waters capable of stealing the memories of anyone who touches them."
+- name: Scornubel
+  x: 85
+  y: 35
+  description: "Known as the Caravan City, Scornubel is a bustling, chaotic trading post on the north side of the river, a crossroads for merchants and adventurers alike."
 
-- name: The Wandering Emporium
-  x: 75
-  y: 45
-  description: "A mobile market built on the backs of giant infernal creatures, run by the rakshasa Mahadi. It's one of the few places to find rare goods and services in Hell."
+- name: The Reaching Woods
+  x: 70
+  y: 85
+  description: "A vast and ancient forest that marks the southern border of this region. It is rumored to hold many secrets, both fey and forgotten."

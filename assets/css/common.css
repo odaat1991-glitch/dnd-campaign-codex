@@ -85,3 +85,26 @@ hr {
 .w-50 {
   width: 50%
 }
+
+/* Interactive Map Styles */
+.map-marker {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 0 5px black;
+}
+
+.map-tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none; /* So the tooltip doesn't interfere with mouse events on the map */
+  z-index: 100;
+}
