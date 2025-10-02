@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/common.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/post.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+</head>
+<body>
+<header>
 {% if site.logo %} {% if site.logo contains 'nes-' %} {% else %} {% endif %} {% endif %}
 
 
@@ -15,3 +28,5 @@
 
 {% if site.social %} {% include social.html %} {% endif %}
 {% if site.show_downloads %} {% include downloads.html %} {% endif %}
+</header>
+<main>
