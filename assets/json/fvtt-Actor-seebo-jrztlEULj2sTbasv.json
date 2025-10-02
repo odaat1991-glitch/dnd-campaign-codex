@@ -1,0 +1,4090 @@
+{
+  "name": "Seebo",
+  "type": "character",
+  "img": "tokenizer/pc-images/seebo.Avatar.sFa1Fo5T3NUCy8q8.webp?1758984069782",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 58,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "con": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "wis": {
+        "value": 11,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 2,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {
+      "calligrapher": {
+        "value": 1,
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "check": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 3,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "calc": "default",
+        "flat": null
+      },
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": null,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "int",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "loyalty": {
+        "value": null
+      },
+      "hp": {
+        "value": 12,
+        "max": null,
+        "temp": null,
+        "tempmax": 0,
+        "bonuses": {}
+      },
+      "death": {
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0,
+        "bonuses": {
+          "save": ""
+        }
+      },
+      "inspiration": false
+    },
+    "bastion": {
+      "name": "",
+      "description": ""
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": "BcFrTXNtohqzfAfI",
+      "background": "dLdmiK6NfYQViTNA",
+      "originalClass": "Rcs0I2ltCj93qsp1",
+      "xp": {
+        "value": 300
+      },
+      "appearance": "",
+      "trait": "",
+      "eyes": "",
+      "height": "",
+      "faith": "",
+      "hair": "",
+      "weight": "",
+      "gender": "",
+      "skin": "",
+      "age": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dr": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dv": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "elvish",
+          "sign"
+        ],
+        "custom": "",
+        "communication": {}
+      },
+      "weaponProf": {
+        "value": [
+          "sim"
+        ],
+        "custom": "",
+        "mastery": {
+          "value": [],
+          "bonus": []
+        }
+      },
+      "armorProf": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": 0,
+        "max": 0,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "secondary": {
+        "value": 0,
+        "max": 0,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      },
+      "tertiary": {
+        "value": 0,
+        "max": 0,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      }
+    },
+    "favorites": []
+  },
+  "prototypeToken": {
+    "name": "Seebo",
+    "displayName": 40,
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "tokenizer/pc-images/seebo.Token.sFa1Fo5T3NUCy8q8.webp?1758984069782",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "flame",
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [
+      {
+        "id": "lightPerception",
+        "range": null,
+        "enabled": true
+      },
+      {
+        "id": "basicSight",
+        "range": 0,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "BcFrTXNtohqzfAfI",
+      "name": "Elf, Drow",
+      "type": "race",
+      "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspElf00000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"drow\">Drow</h3><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixSpeci.JournalEntryPage.phbspDrow0000000 inline classes=\"free-rules-embed\"]</p><h3 data-anchor=\"elf-traits\">Elf Traits</h3><p><strong>Creature Type:</strong> Humanoid</p><p><strong>Size: </strong>Medium (about 5–6 feet tall)</p><p><strong>Speed:</strong> 30 feet</p><p>As an Elf, you have these special traits.</p><p><strong>Darkvision. </strong>You have Darkvision with a range of 60 feet.</p><p><strong>Elven Lineage. </strong>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><table><caption>Drow Lineage Features</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level 5</td></tr></thead><tbody><tr><td>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</td></tr></tbody></table><p><strong>Fey Ancestry.</strong> You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p><p><strong>Keen Senses.</strong> You have proficiency in the Insight, Perception, or Survival skill.</p><p><strong>Trance.</strong> You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+          "chat": ""
+        },
+        "source": {
+          "revision": 2,
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "advancement": [
+          {
+            "_id": "5w2FaHXRKiN7v1rE",
+            "type": "Size",
+            "configuration": {
+              "sizes": [
+                "med"
+              ]
+            },
+            "level": 0,
+            "title": "",
+            "hint": "Medium (about 5–6 feet tall)",
+            "value": {
+              "size": "med"
+            }
+          },
+          {
+            "_id": "boHzoT53gYPvJ9o2",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr"
+                },
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses"
+                },
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.origins24.Item.phbsptTrance0000"
+                },
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.origins24.Item.phbsptDrowElfLin"
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {
+              "added": {
+                "8kKhNzJtbGp1aSg3": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr",
+                "nT6T4ztXtSFccBB6": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses",
+                "tB9m2QT5PYlIf2cj": "Compendium.dnd5e.origins24.Item.phbsptTrance0000",
+                "H5j35j8ERqmrmdP0": "Compendium.dnd5e.origins24.Item.phbsptDrowElfLin"
+              }
+            },
+            "level": 0,
+            "title": "Elf Traits",
+            "hint": ""
+          },
+          {
+            "_id": "nccRK77cXNtEHCHX",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ins",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "value": {
+              "chosen": [
+                "skills:sur"
+              ]
+            },
+            "level": 0,
+            "title": "Keen Senses",
+            "hint": "You have proficiency in the Insight, Perception, or Survival skill."
+          },
+          {
+            "_id": "LWGXpgeZc3PwUgTg",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.spells24.Item.phbsplDancingLig"
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [
+                  "int",
+                  "wis",
+                  "cha"
+                ],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": "",
+                  "requireSlot": false
+                }
+              }
+            },
+            "value": {
+              "ability": "int",
+              "added": {
+                "6Hm7LnHI3KkJd25e": "Compendium.dnd5e.spells24.Item.phbsplDancingLig"
+              }
+            },
+            "level": 1,
+            "title": "Drow Traits",
+            "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          },
+          {
+            "_id": "hIn6cR8fRweVWhTp",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.spells24.Item.phbsplFaerieFire"
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [
+                  "int",
+                  "wis",
+                  "cha"
+                ],
+                "preparation": "always",
+                "uses": {
+                  "max": "1",
+                  "per": "lr",
+                  "requireSlot": false
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Drow Traits",
+            "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          },
+          {
+            "_id": "18x2qczDE0MerZfa",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.spells24.Item.phbsplDarkness00"
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [
+                  "int",
+                  "wis",
+                  "cha"
+                ],
+                "preparation": "always",
+                "uses": {
+                  "max": "1",
+                  "per": "lr",
+                  "requireSlot": false
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Drow Traits",
+            "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": null,
+          "hover": false
+        },
+        "senses": {
+          "darkvision": 120,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": null,
+          "special": ""
+        },
+        "type": {
+          "value": "humanoid",
+          "custom": "",
+          "subtype": "Elf"
+        },
+        "identifier": "elf-drow"
+      },
+      "effects": [],
+      "folder": "Ulvo8nbygUegLa59",
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbspDrow0000000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758293995986,
+        "modifiedTime": 1758295517967,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "sort": 0
+    },
+    {
+      "_id": "8kKhNzJtbGp1aSg3",
+      "name": "Fey Ancestry",
+      "type": "feat",
+      "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed] condition.</p>",
+          "chat": ""
+        },
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "enchant": {},
+        "type": {
+          "value": "race",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "Elf",
+        "identifier": "fey-ancestry",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "folder": "3uafOaOCZJQeUNtw",
+      "flags": {
+        "dnd5e": {
+          "sourceId": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr",
+          "advancementOrigin": "BcFrTXNtohqzfAfI.boHzoT53gYPvJ9o2",
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbsptFeyAncestr",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758293995986,
+        "modifiedTime": 1758295517967,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "nT6T4ztXtSFccBB6",
+      "name": "Keen Senses",
+      "type": "feat",
+      "img": "icons/creatures/eyes/human-single-blue.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>You have proficiency in the Insight, Perception, or Survival skill.</p><section id=\"secret-Tecxufp7EFDVqTEY\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>You will be prompted for your choice after selecting this species.</p></section>",
+          "chat": ""
+        },
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "enchant": {},
+        "type": {
+          "value": "race",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "Elf",
+        "identifier": "keen-senses",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "folder": "3uafOaOCZJQeUNtw",
+      "flags": {
+        "dnd5e": {
+          "sourceId": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses",
+          "advancementOrigin": "BcFrTXNtohqzfAfI.boHzoT53gYPvJ9o2",
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbsptKeenSenses",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758293995986,
+        "modifiedTime": 1758295517967,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "tB9m2QT5PYlIf2cj",
+      "name": "Trance",
+      "type": "feat",
+      "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.</p>",
+          "chat": ""
+        },
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "enchant": {},
+        "type": {
+          "value": "race",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "Elf",
+        "identifier": "trance",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "folder": "3uafOaOCZJQeUNtw",
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.origins24.Item.phbsptTrance0000",
+          "advancementOrigin": "BcFrTXNtohqzfAfI.boHzoT53gYPvJ9o2"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbsptTrance0000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758293995986,
+        "modifiedTime": 1758293995986,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "H5j35j8ERqmrmdP0",
+      "name": "Elven Lineage, Drow",
+      "type": "feat",
+      "img": "icons/magic/nature/beam-hand-leaves-green.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>You are part of a lineage that grants you supernatural abilities.</p><p>When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).</p><h3>Drow Lineage Features</h3><table><thead><tr><td><p>Level 1</p></td><td><p>Level 3</p></td><td><p>Level 5</p></td></tr></thead><tbody><tr><td><p>The range of your Darkvision increases to 120 feet. You also know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDancingLig]{Dancing Lights} cantrip.</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness}</p></td></tr></tbody></table><section class=\"secret\" id=\"secret-9CEnkbCgcLTJ03JL\"><p><strong>Foundry Note</strong></p><p>You will automatically be granted the relevant features and spells when you select the species and as you level up.</p></section>",
+          "chat": ""
+        },
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "enchant": {},
+        "type": {
+          "value": "race",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "Elf (Drow)",
+        "identifier": "elven-lineage-drow",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "folder": "3uafOaOCZJQeUNtw",
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.origins24.Item.phbsptDrowElfLin",
+          "advancementOrigin": "BcFrTXNtohqzfAfI.boHzoT53gYPvJ9o2"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbsptDrowElfLin",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758293995986,
+        "modifiedTime": 1758293995986,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "Rcs0I2ltCj93qsp1",
+      "name": "Wizard",
+      "type": "class",
+      "folder": "5UciSMNOwLY83syr",
+      "img": "systems/dnd5e/icons/classes/wizard.webp",
+      "system": {
+        "description": {
+          "value": "<h3>Core Wizard Traits</h3><table class=\"core-class-traits\"><tbody><tr><th scope=\"row\"><p><strong>Primary Ability</strong></p></th><td><p>Intelligence</p></td></tr><tr><th scope=\"row\"><p><strong>Hit Point Die</strong></p></th><td><p>D6 per Wizard level</p></td></tr><tr><th scope=\"row\"><p><strong>Saving Throw Proficiencies</strong></p></th><td><p>Intelligence and Wisdom</p></td></tr><tr><th scope=\"row\"><p><strong>Skill Proficiencies</strong></p></th><td><p><em>Choose 2:</em>Arcana, History, Insight, Investigation, Medicine, Nature, or Religion</p></td></tr><tr><th scope=\"row\"><p><strong>Weapon Proficiencies</strong></p></th><td><p>Simple weapons</p></td></tr><tr><th scope=\"row\"><p><strong>Armor Training</strong></p></th><td><p>None</p></td></tr><tr><th scope=\"row\"><p><strong>Starting Equipment</strong></p></th><td><p><em>Choose A or B:</em> (A) 2 @UUID[Compendium.dnd5e.equipment24.Item.phbwepDagger0000]{Daggers}, @UUID[Compendium.dnd5e.equipment24.Item.phbagArcaneFocus]{Arcane Focus} (@UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, @UUID[Compendium.dnd5e.items.Item.LBajgahniRJbAgDr]{Spellbook}, @UUID[Compendium.dnd5e.equipment24.Item.phbagScholarsPac]{Scholar's Pack}, and [[/award 5GP]]; or (B) [[/award 55GP]]</p></td></tr></tbody></table><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixClass.JournalEntryPage.phbwzdWizard0000 inline classes=\"free-rules-embed\"]</p><h2>Becoming a Wizard …</h2><h3>As a Level 1 Character</h3><ul><li>Gain all the traits in the Core Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the Wizard Features table.</li></ul><h3>As a Multiclass Character</h3><ul><li>Gain the Hit Point Die from the Core Wizard Traits table.</li><li>Gain the Wizard's level 1 features, which are listed in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbCreatingAChar.JournalEntryPage.vcs4jfEKRxPCsgXm]{multiclassing rules} to determine your available spell slots.</li></ul><aside class=\"notable\"><p><strong>Expanding and Replacing a Spellbook</strong></p><p>The spells you add to your spellbook as you gain levels reflect your ongoing magical research, but you might find other spells during your adventures that you can add to the book. You could discover a Wizard spell on a Spell Scroll, for example, and then copy it into your spellbook.</p><p><strong>Copying a Spell into the Book.</strong> When you find a level 1+ Wizard spell, you can copy it into your spellbook if it's of a level you can prepare and if you have time to copy it. For each level of the spell, the transcription takes 2 hours and costs 50 GP. Afterward you can prepare the spell like the other spells in your spellbook.</p><p><strong>Copying the Book.</strong> You can copy a spell from your spellbook into another book. This is like copying a new spell into your spellbook but faster, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.</p><p>If you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of the new book requires you to find new spells to do so. For this reason, many wizards keep a backup spellbook.</p></aside>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 2,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "requiresProficiency": false,
+            "_id": "zcKhKDfR6l9mjjo0",
+            "group": "",
+            "sort": 100000
+          },
+          {
+            "type": "linked",
+            "count": 2,
+            "key": "Compendium.dnd5e.equipment24.Item.phbwepDagger0000",
+            "requiresProficiency": false,
+            "_id": "Ac2gEqPAS8Y0xgxs",
+            "group": "zcKhKDfR6l9mjjo0",
+            "sort": 200000
+          },
+          {
+            "type": "OR",
+            "requiresProficiency": false,
+            "_id": "lVKJqhzrzUJbCutg",
+            "group": "zcKhKDfR6l9mjjo0",
+            "sort": 300000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbafcStaffalsoa",
+            "requiresProficiency": false,
+            "_id": "WuhfdgDOMfGFoprm",
+            "group": "lVKJqhzrzUJbCutg",
+            "sort": 600000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
+            "requiresProficiency": false,
+            "_id": "01FYjSGd8b9I8peX",
+            "group": "zcKhKDfR6l9mjjo0",
+            "sort": 400000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbagScholarsPac",
+            "requiresProficiency": false,
+            "_id": "ipKkaDAn6KnKgpVH",
+            "group": "zcKhKDfR6l9mjjo0",
+            "sort": 500000
+          }
+        ],
+        "identifier": "wizard",
+        "levels": 2,
+        "advancement": [
+          {
+            "_id": "2whBHO3s8fBYBEWi",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdSpellcasti",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdRitualAdep",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdArcaneReco",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {
+              "added": {
+                "1o8GuqfnUluO9Ff3": "Compendium.dnd5e.classes24.Item.phbwzdSpellcasti",
+                "DuQ9YblNAPbHq3o8": "Compendium.dnd5e.classes24.Item.phbwzdRitualAdep",
+                "wzHNDIgovt1uxSJK": "Compendium.dnd5e.classes24.Item.phbwzdArcaneReco"
+              }
+            },
+            "level": 1,
+            "title": "Class Features"
+          },
+          {
+            "_id": "JTCSb4dfm8Auy6WD",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdScholar000",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {
+              "added": {
+                "VTNopIiRSxfyJsYJ": ".VTNopIiRSxfyJsYJ"
+              }
+            },
+            "level": 2,
+            "title": "Class Features"
+          },
+          {
+            "_id": "tQSiUAW1DhfY3Idi",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdMemorizeSp",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {},
+            "level": 5,
+            "title": "Class Features"
+          },
+          {
+            "_id": "rZqSZS149KxDBwjI",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdSpellMaste",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {},
+            "level": 18,
+            "title": "Class Features"
+          },
+          {
+            "_id": "xu1pMB5cDyCvrU6Z",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdEpicBoon00",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {},
+            "level": 19,
+            "title": "Class Features"
+          },
+          {
+            "_id": "ssLPH7qn9DUncfJ1",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.dnd5e.classes24.Item.phbwzdSignatureS",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {},
+            "level": 20,
+            "title": "Class Features"
+          },
+          {
+            "_id": "bwCLOdauuzoHofil",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "int": 0,
+                "wis": 0,
+                "cha": 0
+              },
+              "cap": 2,
+              "locked": []
+            },
+            "value": {
+              "type": "asi"
+            },
+            "level": 4,
+            "title": ""
+          },
+          {
+            "_id": "mRSh9oUVjLU33e7p",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "int": 0,
+                "wis": 0,
+                "cha": 0
+              },
+              "cap": 2,
+              "locked": []
+            },
+            "value": {
+              "type": "asi"
+            },
+            "level": 8,
+            "title": ""
+          },
+          {
+            "_id": "mhZh3LfLMa15tXee",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "int": 0,
+                "wis": 0,
+                "cha": 0
+              },
+              "cap": 2,
+              "locked": []
+            },
+            "value": {
+              "type": "asi"
+            },
+            "level": 12,
+            "title": ""
+          },
+          {
+            "_id": "FOf5CkGnSs0OlppY",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 2,
+              "fixed": {
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "int": 0,
+                "wis": 0,
+                "cha": 0
+              },
+              "cap": 2,
+              "locked": []
+            },
+            "value": {
+              "type": "asi"
+            },
+            "level": 16,
+            "title": ""
+          },
+          {
+            "_id": "EvuUhx2TrDAsAxgN",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "max-prepared",
+              "type": "number",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "value": 4
+                },
+                "2": {
+                  "value": 5
+                },
+                "3": {
+                  "value": 6
+                },
+                "4": {
+                  "value": 7
+                },
+                "5": {
+                  "value": 9
+                },
+                "6": {
+                  "value": 10
+                },
+                "7": {
+                  "value": 11
+                },
+                "8": {
+                  "value": 12
+                },
+                "9": {
+                  "value": 14
+                },
+                "10": {
+                  "value": 15
+                },
+                "11": {
+                  "value": 16
+                },
+                "13": {
+                  "value": 17
+                },
+                "14": {
+                  "value": 18
+                },
+                "15": {
+                  "value": 19
+                },
+                "16": {
+                  "value": 21
+                },
+                "17": {
+                  "value": 22
+                },
+                "18": {
+                  "value": 23
+                },
+                "19": {
+                  "value": 24
+                },
+                "20": {
+                  "value": 25
+                }
+              }
+            },
+            "value": {},
+            "title": "Max Prepared Spells",
+            "hint": ""
+          },
+          {
+            "_id": "ZTnATJgznTj4W6ZG",
+            "type": "ScaleValue",
+            "configuration": {
+              "identifier": "",
+              "type": "number",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "value": 3
+                },
+                "4": {
+                  "value": 4
+                },
+                "10": {
+                  "value": 5
+                }
+              }
+            },
+            "value": {},
+            "title": "Cantrips Known",
+            "hint": ""
+          },
+          {
+            "_id": "S1H3INPWaAiRkB6G",
+            "type": "Trait",
+            "configuration": {
+              "mode": "expertise",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:med",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "value": {
+              "chosen": []
+            },
+            "level": 2,
+            "title": "Scholar",
+            "hint": "While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency. You have Expertise in the chosen skill."
+          },
+          {
+            "_id": "KTYjh1MKLvOtrZ3u",
+            "type": "Subclass",
+            "configuration": {},
+            "value": {
+              "document": null,
+              "uuid": null
+            },
+            "level": 3,
+            "title": "",
+            "hint": ""
+          },
+          {
+            "_id": "NhwxVhPVWftAEgPi",
+            "type": "ItemChoice",
+            "configuration": {
+              "choices": {
+                "19": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofCombatP"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofDimensi"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofEnergyR"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofFate000"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofFortitu"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofIrresis"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofRecover"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofSkill00"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofSpeed00"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofSpellRe"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonoftheNigh"
+                },
+                {
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbBoonofTruesig"
+                }
+              ],
+              "spell": null,
+              "restriction": {
+                "type": "feat",
+                "subtype": ""
+              }
+            },
+            "value": {
+              "added": {},
+              "replaced": {}
+            },
+            "title": "Epic Boon",
+            "hint": "You gain an Epic Boon feat or another feat of your choice for which you qualify. Boon of Spell Recall is recommended."
+          },
+          {
+            "_id": "4ImCjedK6yWbC2ni",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "saves:int",
+                "saves:wis"
+              ],
+              "choices": []
+            },
+            "value": {
+              "chosen": [
+                "saves:int",
+                "saves:wis"
+              ]
+            },
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "hint": "",
+            "classRestriction": "primary"
+          },
+          {
+            "_id": "73lag0NN0ElcSq94",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 2,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:ins",
+                    "skills:inv",
+                    "skills:med",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "value": {
+              "chosen": [
+                "skills:med",
+                "skills:nat"
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "hint": "",
+            "classRestriction": "primary"
+          },
+          {
+            "_id": "IxWyp7l1BPCaw3jl",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:sim"
+              ],
+              "choices": []
+            },
+            "value": {
+              "chosen": [
+                "weapon:sim"
+              ]
+            },
+            "level": 1,
+            "title": "Weapon Proficiencies",
+            "hint": "",
+            "classRestriction": "primary"
+          },
+          {
+            "_id": "a16u6wgnJQq8HMoq",
+            "type": "HitPoints",
+            "configuration": {},
+            "value": {
+              "1": "max",
+              "2": 6
+            }
+          }
+        ],
+        "spellcasting": {
+          "progression": "full",
+          "ability": "int",
+          "preparation": {
+            "formula": "@scale.wizard.max-prepared"
+          }
+        },
+        "wealth": "55",
+        "primaryAbility": {
+          "value": [
+            "int"
+          ],
+          "all": true
+        },
+        "hd": {
+          "denomination": "d6",
+          "spent": 0,
+          "additional": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "midi-qol": {
+          "onUseMacroName": ""
+        },
+        "plutonium": {
+          "page": "classes.html",
+          "source": "XPHB",
+          "hash": "wizard_xphb",
+          "propDroppable": "class",
+          "filterValues": {
+            "Source": {
+              "TCE": 1,
+              "PHB": 1,
+              "XGE": 1,
+              "SCAG": 1,
+              "BGG": 1,
+              "TDCSR": 0,
+              "XPHB": 1,
+              "VRGR": 1,
+              "PSA": 0,
+              "DMG": 1,
+              "EGW": 0,
+              "FTD": 1,
+              "UATheMysticClass": 0,
+              "DSotDQ": 1,
+              "PSK": 0,
+              "_isActive": true,
+              "_totals": {
+                "ignore": 5,
+                "yes": 10,
+                "no": 0
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Primary Ability": {
+              "str": 0,
+              "dex": 0,
+              "con": 0,
+              "int": 0,
+              "wis": 0,
+              "cha": 0,
+              "_isActive": false,
+              "_totals": {
+                "ignore": 6,
+                "yes": 0,
+                "no": 0
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Miscellaneous": {
+              "Reprinted": 2,
+              "Sidekick": 2,
+              "Legacy": 0,
+              "Has Info": 0,
+              "Has Images": 0,
+              "SRD 5": {
+                "1": 0,
+                "2": 0
+              },
+              "Basic Rules (2024)": 0,
+              "Modified Copy": 0,
+              "Basic Rules (2014)": 0,
+              "_isActive": true,
+              "_totals": {
+                "ignore": 8,
+                "yes": 0,
+                "no": 2
+              },
+              "_combineBlue": "or",
+              "_combineRed": "or"
+            },
+            "Other/Text Options": {
+              "isDisplayClassIfSubclassActive": false,
+              "isClassFeatureVariant": true,
+              "_isActive": false
+            }
+          },
+          "isPrimaryClass": true,
+          "isDirectImport": true
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.classes24.Item.phbwzdWizard0000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295517955,
+        "modifiedTime": 1758295939224,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "sort": 0
+    },
+    {
+      "name": "Dancing Lights",
+      "system": {
+        "description": {
+          "value": "<p>You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.</p><p>As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell's range.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": null
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "level": 0,
+        "school": "ill",
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "materials": {
+          "value": "a bit of phosphorus",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": false
+        },
+        "activities": {
+          "7uE4AFHftJsK3rYK": {
+            "type": "summon",
+            "name": "Create Lights",
+            "_id": "7uE4AFHftJsK3rYK",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "bonuses": {
+              "ac": "",
+              "hd": "",
+              "hp": "",
+              "attackDamage": "",
+              "saveDamage": "",
+              "healing": ""
+            },
+            "creatureSizes": [],
+            "creatureTypes": [],
+            "match": {
+              "attacks": false,
+              "proficiency": false,
+              "saves": false
+            },
+            "profiles": [
+              {
+                "count": "4",
+                "name": "",
+                "_id": "iOdIvk0ZQyeQJGC3",
+                "uuid": "Compendium.dnd5e.actors24.Actor.phbsplTinyDancin",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "types": []
+              },
+              {
+                "count": "1",
+                "name": "",
+                "_id": "bXvBLXJoA9YMkbbd",
+                "uuid": "Compendium.dnd5e.actors24.Actor.phbsplMediumDanc",
+                "level": {
+                  "min": null,
+                  "max": null
+                },
+                "types": []
+              }
+            ],
+            "summon": {
+              "prompt": true,
+              "mode": "",
+              "identifier": ""
+            },
+            "effects": [],
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            }
+          },
+          "4a3L8r8Iobi24dBr": {
+            "type": "utility",
+            "_id": "4a3L8r8Iobi24dBr",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": null,
+              "override": true,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": true
+            },
+            "effects": [],
+            "range": {
+              "override": true,
+              "units": "ft",
+              "special": "",
+              "value": "60"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "space"
+              },
+              "override": true,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": "Move Lights",
+            "img": "systems/dnd5e/icons/svg/statuses/concentrating.svg",
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none"
+          }
+        },
+        "identifier": "dancing-lights",
+        "ability": "int"
+      },
+      "_id": "6Hm7LnHI3KkJd25e",
+      "type": "spell",
+      "img": "icons/magic/light/light-candles-lit-white.webp",
+      "effects": [],
+      "folder": "4FhsY9FJQd7h7MZb",
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.spells24.Item.phbsplDancingLig",
+          "advancementOrigin": "BcFrTXNtohqzfAfI.LWGXpgeZc3PwUgTg"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.spells24.Item.phbsplDancingLig",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295517955,
+        "modifiedTime": 1758295517955,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "_id": "1o8GuqfnUluO9Ff3",
+      "name": "Spellcasting",
+      "type": "feat",
+      "folder": "plFztoZhqP7fLHPl",
+      "img": "icons/magic/fire/explosion-embers-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>As a student of arcane magic, you have learned to cast spells. See the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. The information below details how you use those rules with Wizard spells, which appear in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}.</p><p><strong>Cantrips.</strong> You know three Wizard cantrips of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]{Light}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost} are recommended. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.</p><p>When you reach Wizard levels 4 and 10, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the @UUID[Compendium.dnd5e.content24.JournalEntry.phbWizard0000000.JournalEntryPage.g7cMRWzsgAsEF7zC#class-features]{Wizard Features table}.</p><p><strong>Spellbook. </strong>Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting @UUID[Compendium.dnd5e.spells24.Item.phbsplIdentify00]{Identify}. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.</p><p>The book contains the level 1+ spells you know. It starts with six level 1 Wizard spells of your choice. @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectMagi]{Detect Magic}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Feather Fall}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Mage Armor}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSleep00000]{Sleep}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Thunderwave} are recommended.</p><p>Whenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown in the Wizard Features table. The spells are the culmination of arcane research you do regularly.</p><p><strong>Spell Slots.</strong> The Wizard Features table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.</p><p>The number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard Features table. Whenever that number increases, choose additional Wizard spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.</p><p>If another Wizard feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Wizard spells for you.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you finish a Long Rest, you can change your list of prepared spells, replacing any of the spells there with spells from your spellbook.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells.</p><p><strong>Spellcasting Focus. </strong>You can use an Arcane Focus or your spellbook as a Spellcasting Focus for your Wizard spells.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 1,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": 1,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "identifier": "spellcasting",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.classes24.Item.phbwzdSpellcasti",
+          "advancementOrigin": "Rcs0I2ltCj93qsp1.2whBHO3s8fBYBEWi"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.classes24.Item.phbwzdSpellcasti",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295517955,
+        "modifiedTime": 1758295517955,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "DuQ9YblNAPbHq3o8",
+      "name": "Ritual Adept",
+      "type": "feat",
+      "folder": "plFztoZhqP7fLHPl",
+      "img": "icons/sundries/scrolls/scroll-yellow-teal.webp",
+      "system": {
+        "description": {
+          "value": "<p>You can cast any spell as a @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.YSB1QtxZW2BI9f4Y#casting-without-slots]{Ritual} if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 2,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": 1,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "identifier": "ritual-adept",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.classes24.Item.phbwzdRitualAdep",
+          "advancementOrigin": "Rcs0I2ltCj93qsp1.2whBHO3s8fBYBEWi"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.classes24.Item.phbwzdRitualAdep",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295517955,
+        "modifiedTime": 1758295517955,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "_id": "wzHNDIgovt1uxSJK",
+      "name": "Arcane Recovery",
+      "type": "feat",
+      "folder": "plFztoZhqP7fLHPl",
+      "img": "icons/magic/earth/explosion-lava-stone-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.</p><p>Once you use this feature, you can't do so again until you finish a Long Rest.</p><p><strong>Combined Level Available:</strong> [[(@classes.wizard.levels / 2)]]</p><section id=\"secret-cO6X083GFJ1W4071\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>Since you can select the slots you will have to manually adjust your available slots. This feature can be used to track the one-time use though.</p></section>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 1,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": 1,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "identifier": "arcane-recovery",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "effects": [],
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.classes24.Item.phbwzdArcaneReco",
+          "advancementOrigin": "Rcs0I2ltCj93qsp1.2whBHO3s8fBYBEWi"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.classes24.Item.phbwzdArcaneReco",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295517955,
+        "modifiedTime": 1758295517955,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      }
+    },
+    {
+      "name": "Sage",
+      "system": {
+        "description": {
+          "value": "<p><strong>Ability Scores:</strong> Constitution, Intelligence, Wisdom</p><p><strong>Feat:</strong> @UUID[Compendium.dnd5e.feats24.Item.phbftMagicInitia]{Magic Initiate} (Wizard)</p><p><strong>Skill Proficiencies:</strong> Arcana and History</p><p><strong>Tool Proficiency:</strong> Calligrapher's Supplies</p><p><strong>Equipment:</strong> <em>Choose A or B:</em> (A) @UUID[Compendium.dnd5e.equipment24.Item.phbwepQuartersta]{Quarterstaff}, @UUID[Compendium.dnd5e.equipment24.Item.phbtulCalligraph]{Calligrapher's Supplies}, @UUID[Compendium.dnd5e.equipment24.Item.phbagBook0000000]{Book} (history), @UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment} (8 sheets), @UUID[Compendium.dnd5e.equipment24.Item.phbagRobe0000000]{Robe}, 8 GP; or (B) 50 GP</p><p>@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixBackg.JournalEntryPage.phbbgSage0000000 inline classes=\"free-rules-embed\"]</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 1,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "requiresProficiency": false,
+            "_id": "uRcBoDkXkBGLcAZa",
+            "group": "",
+            "sort": 100000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
+            "requiresProficiency": false,
+            "_id": "xLC7HRRS752ZwUWt",
+            "group": "uRcBoDkXkBGLcAZa",
+            "sort": 200000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbtulCalligraph",
+            "requiresProficiency": false,
+            "_id": "fHJXE95uLEXFOpM3",
+            "group": "uRcBoDkXkBGLcAZa",
+            "sort": 300000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbagBook0000000",
+            "requiresProficiency": false,
+            "_id": "ChFHtKBM5dzyV084",
+            "group": "uRcBoDkXkBGLcAZa",
+            "sort": 400000
+          },
+          {
+            "type": "linked",
+            "count": 8,
+            "key": "Compendium.dnd5e.equipment24.Item.phbagParchment00",
+            "requiresProficiency": false,
+            "_id": "c1HLvf7xNWmkdpms",
+            "group": "uRcBoDkXkBGLcAZa",
+            "sort": 500000
+          },
+          {
+            "type": "linked",
+            "count": null,
+            "key": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
+            "requiresProficiency": false,
+            "_id": "Hnd8cbnz7zj8A7SL",
+            "group": "uRcBoDkXkBGLcAZa",
+            "sort": 600000
+          }
+        ],
+        "identifier": "sage",
+        "advancement": [
+          {
+            "_id": "3O61L5uTy5jRCqJb",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "cap": 2,
+              "fixed": {
+                "str": 0,
+                "dex": 0,
+                "con": 0,
+                "int": 0,
+                "wis": 0,
+                "cha": 0
+              },
+              "locked": [
+                "str",
+                "dex",
+                "cha"
+              ],
+              "points": 3
+            },
+            "value": {
+              "type": "asi",
+              "assignments": {
+                "con": 1,
+                "int": 1,
+                "wis": 1
+              }
+            },
+            "level": 0,
+            "title": "Background Ability Score Improvement",
+            "hint": "Your background allows you to increase your Constitution, Intelligence, and Wisdom scores; increase one of them by 2 and a different one by 1, or increase all three by 1. None of these increases can raise a score above 20."
+          },
+          {
+            "_id": "DMd8rikwPlZdpP1l",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:art:calligrapher",
+                "skills:arc",
+                "skills:his"
+              ],
+              "choices": []
+            },
+            "value": {
+              "chosen": [
+                "tool:art:calligrapher",
+                "skills:arc",
+                "skills:his"
+              ]
+            },
+            "level": 0,
+            "title": "Background Proficiencies",
+            "hint": "Your background grants you proficiency in Arcana and History. It also grants you proficiency with Calligrapher's Supplies."
+          },
+          {
+            "_id": "kKt7VMmZUuRr35dP",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "optional": false,
+                  "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+                }
+              ],
+              "optional": false,
+              "spell": null
+            },
+            "value": {
+              "added": {
+                "kk0FrpxLedS4gOZq": "Compendium.dnd5e.feats24.Item.phbftMagicInitia"
+              }
+            },
+            "level": 0,
+            "title": "Background Feat",
+            "hint": "Your backgrounds grants you the Magic Initiate (Wizard) feat."
+          },
+          {
+            "_id": "pLGiyOjTP7nwuwTl",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:standard:common"
+              ],
+              "choices": [
+                {
+                  "count": 2,
+                  "pool": [
+                    "languages:standard:*"
+                  ]
+                }
+              ]
+            },
+            "value": {
+              "chosen": [
+                "languages:standard:common",
+                "languages:standard:elvish",
+                "languages:standard:sign"
+              ]
+            },
+            "level": 0,
+            "title": "Choose Languages",
+            "hint": "Your character knows at least three languages: Common plus two languages you roll or choose from the Standard Languages table."
+          }
+        ],
+        "wealth": "50"
+      },
+      "_id": "dLdmiK6NfYQViTNA",
+      "type": "background",
+      "img": "icons/sundries/books/book-open-brown.webp",
+      "effects": [],
+      "folder": "ysJSs3cbEBOMC1zV",
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.origins24.Item.phbbgSage0000000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295709232,
+        "modifiedTime": 1758295709232,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "sort": 0
+    },
+    {
+      "name": "Magic Initiate",
+      "system": {
+        "description": {
+          "value": "<p>You gain the following benefits.</p><p><strong>Two Cantrips.</strong> You learn two cantrips of your choice from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.SkHptN2PTzFGDaEj]{Cleric}, @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.LhvuDQEyrCdg5EfU]{Druid}, or @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard} spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).</p><p><strong>Level 1 Spell.</strong> Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.</p><p><strong>Spell Change.</strong> Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list.</p><p><strong>Repeatable.</strong> You can take this feat more than once, but you must choose a different spell list each time.</p><section id=\"secret-7JQCSgnGrtu9huzf\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells have to be added to your sheet with the above changes manually.</p></section>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "revision": 1,
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2"
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "feat",
+          "subtype": "origin"
+        },
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "identifier": "magic-initiate",
+        "advancement": [],
+        "cover": null,
+        "crewed": false
+      },
+      "_id": "kk0FrpxLedS4gOZq",
+      "type": "feat",
+      "img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+      "effects": [],
+      "folder": "d5jrO8A6QpjEV9rn",
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "sourceId": "Compendium.dnd5e.feats24.Item.phbftMagicInitia",
+          "advancementOrigin": "dLdmiK6NfYQViTNA.kKt7VMmZUuRr35dP"
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.feats24.Item.phbftMagicInitia",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295709232,
+        "modifiedTime": 1758295709232,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Backpack",
+      "system": {
+        "description": {
+          "value": "<p>A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag.</p>",
+          "chat": ""
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "quantity": 1,
+        "source": {
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "currency": {
+          "pp": 0,
+          "gp": 0,
+          "ep": 0,
+          "sp": 0,
+          "cp": 0
+        },
+        "properties": [],
+        "capacity": {
+          "weight": {
+            "value": 30,
+            "units": "lb"
+          },
+          "count": null,
+          "volume": {
+            "value": null,
+            "units": "cubicFoot"
+          }
+        },
+        "identifier": "backpack",
+        "attuned": false,
+        "equipped": false
+      },
+      "_id": "zAD2mnaoKH4dOOL9",
+      "type": "container",
+      "folder": "uDk4FBYfcP2JnX6t",
+      "img": "icons/containers/bags/pack-simple-leather.webp",
+      "effects": [],
+      "sort": 7300000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbagBackpack000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295733296,
+        "modifiedTime": 1758295733296,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Calligrapher's Supplies",
+      "system": {
+        "description": {
+          "value": "<p class=\"phb-meta\"><strong>Ability:</strong> Dexterity</p><p class=\"phb-meta\"><strong>Utilize:</strong> Write text with impressive flourishes that guard against forgery (DC 15)</p><p class=\"phb-meta\"><strong>Craft:</strong> @UUID[Compendium.dnd5e.equipment24.Item.phbagInk00000000]{Ink}, <em>Spell Scroll</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "art",
+          "baseItem": "calligrapher"
+        },
+        "ability": "dex",
+        "chatFlavor": "",
+        "proficient": null,
+        "properties": [],
+        "bonus": "",
+        "activities": {
+          "PVMIlNQvLAyrF4kP": {
+            "type": "check",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "check": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "",
+                "formula": "15"
+              },
+              "associated": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "PVMIlNQvLAyrF4kP",
+            "name": "",
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            }
+          }
+        },
+        "identifier": "calligraphers-supplies",
+        "attuned": false,
+        "equipped": true
+      },
+      "_id": "MO1D8lZRtJY1eHF2",
+      "type": "tool",
+      "folder": "V8KHbNkEWoXQP3Pj",
+      "img": "icons/tools/scribal/pen-steel-grey-brown.webp",
+      "effects": [],
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        },
+        "midi-qol": {
+          "rollAttackPerTarget": "default",
+          "removeAttackDamageButtons": "default",
+          "itemCondition": "",
+          "reactionCondition": "",
+          "otherCondition": "",
+          "effectCondition": ""
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbtulCalligraph",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295813261,
+        "modifiedTime": 1758295865586,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Book",
+      "system": {
+        "description": {
+          "value": "<p>A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic.</p>",
+          "chat": ""
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "rarity": "",
+        "properties": [],
+        "type": {
+          "value": "gear",
+          "subtype": ""
+        },
+        "identifier": "book"
+      },
+      "_id": "LcYu41vImr1SF16R",
+      "type": "loot",
+      "folder": "uDk4FBYfcP2JnX6t",
+      "img": "icons/sundries/books/book-worn-brown.webp",
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbagBook0000000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295826612,
+        "modifiedTime": 1758295826612,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Parchment",
+      "system": {
+        "description": {
+          "value": "<p>One sheet of Parchment can hold about 250 handwritten words.</p>",
+          "chat": ""
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 8,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "rarity": "",
+        "properties": [],
+        "type": {
+          "value": "gear",
+          "subtype": ""
+        },
+        "identifier": "parchment"
+      },
+      "_id": "rOqyH5PKQHibq95W",
+      "type": "loot",
+      "folder": "uDk4FBYfcP2JnX6t",
+      "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+      "effects": [],
+      "sort": 4300000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbagParchment00",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295833836,
+        "modifiedTime": 1758295837567,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Robe",
+      "system": {
+        "description": {
+          "value": "<p>A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols.</p>",
+          "chat": ""
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "cover": null,
+        "crewed": false,
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "armor": {
+          "value": null,
+          "magicalBonus": null,
+          "dex": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        },
+        "properties": [],
+        "speed": {
+          "value": null,
+          "conditions": ""
+        },
+        "strength": null,
+        "proficient": null,
+        "activities": {},
+        "identifier": "robe",
+        "attuned": false,
+        "equipped": true
+      },
+      "_id": "nqfk4gHCaVsr6l64",
+      "type": "equipment",
+      "folder": "uDk4FBYfcP2JnX6t",
+      "img": "icons/equipment/back/mantle-collared-black.webp",
+      "effects": [],
+      "sort": 5400000,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbagRobe0000000",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295849161,
+        "modifiedTime": 1758295853015,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "name": "Quarterstaff",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "source": {
+          "custom": "",
+          "rules": "2024",
+          "license": "CC-BY-4.0",
+          "book": "SRD 5.2",
+          "revision": 1
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "rarity": "",
+        "attunement": "",
+        "cover": null,
+        "crewed": false,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": 0,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "bonus": ""
+          }
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": "quarterstaff"
+        },
+        "magicalBonus": null,
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "activities": {
+          "XYVC9JOYrtFlLA1k": {
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": false,
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "_id": "XYVC9JOYrtFlLA1k",
+            "name": "",
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "",
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": ""
+          }
+        },
+        "ammunition": {},
+        "mastery": "topple",
+        "identifier": "quarterstaff",
+        "attuned": false,
+        "equipped": true
+      },
+      "_id": "ehvdbuRpPDkXrEhr",
+      "type": "weapon",
+      "folder": "FL1Jee9DzStc7vM3",
+      "img": "icons/weapons/staves/staff-simple.webp",
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": "Compendium.dnd5e.equipment24.Item.phbwepQuartersta",
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295912937,
+        "modifiedTime": 1758295916607,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      }
+    },
+    {
+      "_id": "VTNopIiRSxfyJsYJ",
+      "name": "Scholar",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB 2024",
+          "page": "166",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--1\"><p>While studying magic, you also specialized in another field of study. Choose one of the following skills in which you have proficiency: &amp;Reference[skill=Arcana], &amp;Reference[skill=History], &amp;Reference[skill=Investigation], &amp;Reference[skill=Medicine], &amp;Reference[skill=Nature], or &amp;Reference[skill=Religion]. You have @variantrule[Expertise|XPHB] in the chosen skill.</p></div>",
+          "chat": ""
+        },
+        "requirements": "Wizard 2",
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "properties": [],
+        "advancement": [],
+        "activities": {},
+        "identifier": "scholar",
+        "cover": null,
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "img": "modules/plutonium/media/icon/class/phb-wizard.webp",
+      "flags": {
+        "plutonium": {
+          "page": "classFeature",
+          "source": "XPHB",
+          "hash": "scholar_wizard_xphb_2_xphb"
+        },
+        "dnd5e": {
+          "sourceId": ".VTNopIiRSxfyJsYJ",
+          "advancementOrigin": "Rcs0I2ltCj93qsp1.JTCSb4dfm8Auy6WD"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295938235,
+        "modifiedTime": 1758295939255,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "U7MEcdM82yGKKvF1",
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "PHB 2024",
+          "page": "149",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": "",
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "cover": null,
+        "range": {
+          "value": 0,
+          "long": 0,
+          "reach": null,
+          "units": "ft"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "damage": {
+          "versatile": {
+            "number": null,
+            "denomination": null,
+            "bonus": "",
+            "types": [],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          },
+          "base": {
+            "number": null,
+            "denomination": null,
+            "bonus": "@mod",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": true,
+              "formula": "1"
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "properties": [],
+        "proficient": null,
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "crewed": false,
+        "magicalBonus": null,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "name": "Damage",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "unarmed"
+              },
+              "ability": "str"
+            },
+            "damage": {
+              "critical": {},
+              "includeBase": true,
+              "parts": []
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "",
+            "attackMode": "oneHanded",
+            "ammunition": "",
+            "otherActivityUuid": ""
+          },
+          "dnd5eactivity001": {
+            "_id": "dnd5eactivity001",
+            "type": "save",
+            "name": "Grapple",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "grappleGrappled0",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "save": {
+              "ability": [
+                "str,dex"
+              ],
+              "dc": {
+                "calculation": "str"
+              }
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [],
+              "critical": {
+                "allow": false
+              }
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": ""
+          },
+          "dnd5eactivity002": {
+            "_id": "dnd5eactivity002",
+            "type": "save",
+            "name": "Shove",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "shoveProne000000",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "save": {
+              "ability": [
+                "str,dex"
+              ],
+              "dc": {
+                "calculation": "str"
+              }
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [],
+              "critical": {
+                "allow": false
+              }
+            },
+            "sort": 0,
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "forceDialog": false,
+              "confirmTargets": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "automationOnly": false,
+              "otherActivityCompatible": true,
+              "identifier": "",
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": ""
+          }
+        },
+        "attuned": false,
+        "ammunition": {},
+        "identifier": "unarmed-strike",
+        "mastery": ""
+      },
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "ownership": {
+        "default": 0,
+        "y0fVAlg330JO9cd0": 3
+      },
+      "flags": {
+        "plutonium": {
+          "page": "items.html",
+          "source": "XPHB",
+          "hash": "unarmed%20strike_xphb"
+        }
+      },
+      "effects": [
+        {
+          "_id": "grappleGrappled0",
+          "name": "Grappled",
+          "img": "icons/skills/melee/unarmed-punch-fist.webp",
+          "description": "",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "grappled"
+            }
+          },
+          "statuses": [
+            "grappled"
+          ],
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "shoveProne000000",
+          "name": "Prone",
+          "img": "icons/skills/melee/unarmed-punch-fist.webp",
+          "description": "",
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "prone"
+            }
+          },
+          "statuses": [
+            "prone"
+          ],
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "12.331",
+            "systemId": "dnd5e",
+            "systemVersion": "4.4.4",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "dnd5e",
+        "systemVersion": "4.4.4",
+        "createdTime": 1758295939166,
+        "modifiedTime": 1758295939166,
+        "lastModifiedBy": "y0fVAlg330JO9cd0"
+      },
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "showTokenPortrait": true
+    },
+    "midi-qol": {
+      "actions": {
+        "bonus": false,
+        "action": false
+      }
+    },
+    "exportSource": {
+      "world": "faerun",
+      "system": "dnd5e",
+      "coreVersion": "12.331",
+      "systemVersion": "4.4.4"
+    }
+  },
+  "_stats": {
+    "coreVersion": "12.331",
+    "systemId": "dnd5e",
+    "systemVersion": "4.4.4",
+    "createdTime": 1758289791455,
+    "modifiedTime": 1758985115224,
+    "lastModifiedBy": "y0fVAlg330JO9cd0"
+  }
+}
