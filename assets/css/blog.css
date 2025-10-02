@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap");
+
+
+* {
+  font-family: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -webkit-user-drag: none;
+  -moz-window-dragging: none;
+  -webkit-tap-highlight-color: transparent;
+}
+* img {
+  max-width: 100%;
+}
+html,
+body {
+  color: var(--color-3);
+  font-family: "JetBrains Mono", monospace;
+  line-height: 2rem;
+  background-color: var(--gray-5);
+  scroll-behavior: smooth;
+}
+header {
+  display: flex;
+}
+header .site-title {
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 110%;
+  color: var(--color-);
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+}
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 3rem 0;
+}
+
+/* article section */
+
+.articles {
+  display: grid;
+  row-gap: 2rem;
+  margin: 4rem 0 3rem 0;
+}
+.articles .article {
+  padding: 2rem;
+  background: var(--color-4);
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.articles .article .article-title,
+.articles .article .article-title a {
+  text-decoration: underline;
+  color: var(--color-3);
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 130%;
+}
+.articles .article:hover {
+  transform: scale(1.05);
+}
+.articles .article .date {
+  display: block;
+  font-size: 0.8rem;
+}
+.articles .article .categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.articles .article .categories .category {
+  margin: 0.5rem 0.5rem 0.3rem 0;
+  display: block;
+  color: var(--color-3);
+  background: var(--color-2);
+  border-radius: 15px;
+  font-size: 0.8rem;
+  padding: 0 0.8rem;
+  line-height: 1.3rem;
+  cursor: pointer;
+}
+/* media query */
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 1.5rem;
+  }
+  header .site-title {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header .site-title {
+    font-size: 3rem;
+  }
+  .articles {
+    row-gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  main,
+  .articles {
+    padding: 0;
+    margin: 0;
+  }
+  main {
+    padding-bottom: 1rem;
+  }
+  .articles {
+    margin: 2rem 0 3rem 0;
+    row-gap: 1.2rem;
+  }
+  header .site-title {
+    font-size: 2.4rem;
+  }
+  .article {
+    padding: 1.2rem;
+  }
+  .articles .article .article-title,
+  .articles .article .article-title a {
+    font-size: 1rem;
+  }
+}
+
+.navbar {
+  margin-top: 2rem;
+  border-radius: 15px;
+  background-color: var(--color-4);
+  overflow: hidden;
+}
+
+.navbar a {
+  font-weight: 700;
+  float: left;
+  color: var(--color-3);
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  color: var(--color-4);
+  background-color: var(--color-3);
+}
+
+.navbar a.active {
+  color: var(--color-4);
+  background-color: var(--color-3);
+}

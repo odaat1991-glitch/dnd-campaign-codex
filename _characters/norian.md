@@ -9,6 +9,7 @@ con: 13
 int: 9
 wis: 12
 cha: 14
+portrait: /assets/images/portraits/norian.webp
 ---
 
 {{ page.name }} is a {{ page.race }} {{ page.class }}.

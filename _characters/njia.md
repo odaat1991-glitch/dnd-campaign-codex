@@ -9,6 +9,7 @@ con: 15
 int: 13
 wis: 10
 cha: 8
+portrait: /assets/images/portraits/njia.webp
 ---
 
 {{ page.name }} is a {{ page.race }} {{ page.class }}.

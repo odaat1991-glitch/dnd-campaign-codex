@@ -23,7 +23,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-8bit
 plugins:
   - jekyll-feed
 
