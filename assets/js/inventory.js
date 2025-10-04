@@ -8,15 +8,30 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Clear any existing placeholder content
                 inventoryBody.innerHTML = '';
                 
-                // This is a simple parser; it won't handle commas inside quoted fields well.
                 const rows = csvText.trim().split('\n');
                 // Skip header row by starting at i = 1
                 for (let i = 1; i < rows.length; i++) {
-                    const row = rows[i];
+                    const row = rows[i].trim();
+                    // Skip empty rows
+                    if (!row) continue;
+                    
                     const columns = row.split(',').map(col => col.trim().replace(/^"|"$/g, ''));
-                    if (columns.length > 1) { // Ensure it's not an empty row
+                    
+                    // Get the Character field (assuming it's the first column, index 0)
+                    const characterField = columns[0] ? columns[0].trim() : '';
+                    
+                    // Filter: only render if Character field is present and NOT 'FALSE' or empty
+                    if (!characterField || characterField.toUpperCase() === 'FALSE') {
+                        continue;
+                    }
+                    
+                    // Limit to first 9 columns only
+                    const limitedColumns = columns.slice(0, 9);
+                    
+                    // Ensure we have valid data
+                    if (limitedColumns.length > 0) {
                         const tr = document.createElement('tr');
-                        columns.forEach((columnText, index) => {
+                        limitedColumns.forEach((columnText, index) => {
                             const td = document.createElement('td');
                             // Hide the text if it's the Attunement column and the value is FALSE
                             if (index === 4 && columnText.toUpperCase() === 'FALSE') {
@@ -32,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error fetching inventory data:', error);
-                inventoryBody.innerHTML = '<td colspan="3">Error loading inventory. Please try again later.</td>';
+                inventoryBody.innerHTML = '<td colspan="9">Error loading inventory. Please try again later.</td>';
             });
     }
 });
