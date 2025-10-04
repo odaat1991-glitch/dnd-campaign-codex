@@ -1,0 +1,96 @@
+---
+layout: page
+title: Lansing Guild Booking
+permalink: /lansing_guild_complete.html
+---
+
+<section class="guild-booking-banner">
+  <h1>🛡️ Book Your Session with the Lansing Guild! 🛡️</h1>
+  <p>
+    Enter the adventure—schedule a D&D game, coaching session, or minis workshop! We'll confirm your quest details by email.
+  </p>
+</section>
+
+<form class="guild-booking-form" action="mailto:YOUR_EMAIL@domain.com" method="POST" enctype="text/plain">
+  <label for="name">Adventurer's Name:</label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">Contact Email:</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="session-type">Session Type:</label>
+  <select id="session-type" name="session-type" required>
+    <option value="">--Please choose an option--</option>
+    <option value="dnd-campaign">D&D Campaign Session</option>
+    <option value="learning-coaching">D&D/New Player Coaching</option>
+    <option value="mini-painting">Miniature Painting Workshop</option>
+    <option value="one-shot">One-Shot Adventure</option>
+    <option value="other">Other/Custom Session</option>
+  </select>
+
+  <label for="preferred-date">Preferred Date & Time:</label>
+  <input type="datetime-local" id="preferred-date" name="preferred-date" required />
+
+  <label for="message">Tell us about your quest or party:</label>
+  <textarea id="message" name="message" rows="4" placeholder="What are you looking for? Campaign preferences, group size, questions, etc."></textarea>
+
+  <button type="submit" class="button medieval-btn">Book My Adventure!</button>
+</form>
+
+<style>
+.guild-booking-banner {
+  background: linear-gradient(90deg, #f4e8d0 60%, #efe3b5 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Cinzel', 'Crimson Text', serif;
+  box-shadow: 0 6px 12px #7c5714;
+}
+.guild-booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #f5ecd6;
+  border: 3px solid #bfa777;
+  border-radius: 20px;
+  padding: 2rem 2rem 1rem 2rem;
+  box-shadow: 0 4px 8px #bfa7776a;
+  font-family: 'Crimson Text', serif;
+}
+.guild-booking-form label {
+  display: block;
+  margin-top: 1.25rem;
+  font-family: 'Cinzel', serif;
+  font-size: 1.13em;
+  color: #8b4513;
+}
+.guild-booking-form input, .guild-booking-form select, .guild-booking-form textarea {
+  width: 100%;
+  padding: 0.55rem;
+  border-radius: 8px;
+  border: 1px solid #c7b389;
+  background: #fff8ef;
+  font-size: 1em;
+  margin-top: .35rem;
+}
+.guild-booking-form textarea {
+  min-height: 70px;
+}
+.button.medieval-btn {
+  background: linear-gradient(180deg, #d4af37 70%, #a67c21 100%);
+  color: #2c1810;
+  border: none;
+  padding: 1rem 1.7rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
+  font-size: 1.1em;
+  margin-top: 2rem;
+  box-shadow: 0 2px 6px #bfa77780;
+  transition: background 0.2s;
+}
+.button.medieval-btn:hover {
+  background: linear-gradient(180deg, #ffe36b 60%, #ab8426 100%);
+  color: #271509;
+}
+</style>
