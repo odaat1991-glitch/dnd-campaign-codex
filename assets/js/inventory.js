@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const inventoryBody = document.getElementById('inventory-body');
-    const sheetId = '1R2wH5K6E3dSZcRzR0kj5ADdXyBS7338LdIydnfujLa8';
-    const sheetName = 'Table1';
-    const url = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
-
+    const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZcRd0tdl6X3PuHyjHR_zL4VX_L2mr_ZB48FI6DP0HNg8TrWylAZwrJe1e44ZutXhKyLtlYnDpLET/pub?gid=0&single=true&output=csv';
     if (inventoryBody) {
         fetch(url)
             .then(response => response.text())
@@ -17,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 for (let i = 1; i < rows.length; i++) {
                     const row = rows[i];
                     const columns = row.split('\t').map(col => col.trim().replace(/^"|"$/g, ''));
-
                     if (columns.length > 1) { // Ensure it's not an empty row
                         const tr = document.createElement('tr');
                         columns.forEach((columnText, index) => {
@@ -36,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             })
             .catch(error => {
                 console.error('Error fetching inventory data:', error);
-                inventoryBody.innerHTML = '<tr><td colspan="3">Error loading inventory. Please try again later.</td></tr>';
+                inventoryBody.innerHTML = '<td colspan="3">Error loading inventory. Please try again later.</td>';
             });
     }
 });
