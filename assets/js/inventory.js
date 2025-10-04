@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Skip header row by starting at i = 1
                 for (let i = 1; i < rows.length; i++) {
                     const row = rows[i];
-                    const columns = row.split('\t').map(col => col.trim().replace(/^"|"$/g, ''));
+                    const columns = row.split(',').map(col => col.trim().replace(/^"|"$/g, ''));
                     if (columns.length > 1) { // Ensure it's not an empty row
                         const tr = document.createElement('tr');
                         columns.forEach((columnText, index) => {
