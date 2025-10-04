@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 inventoryBody.innerHTML = '';
                 
                 const rows = csvText.trim().split('\n');
+                let validRowCount = 0;
+                
                 // Skip header row by starting at i = 1
                 for (let i = 1; i < rows.length; i++) {
                     const row = rows[i].trim();
@@ -42,12 +44,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             tr.appendChild(td);
                         });
                         inventoryBody.appendChild(tr);
+                        validRowCount++;
                     }
+                }
+                
+                // If no valid rows were found, show a message
+                if (validRowCount === 0) {
+                    inventoryBody.innerHTML = '<tr><td colspan="9">No inventory items found.</td></tr>';
                 }
             })
             .catch(error => {
                 console.error('Error fetching inventory data:', error);
-                inventoryBody.innerHTML = '<td colspan="9">Error loading inventory. Please try again later.</td>';
+                inventoryBody.innerHTML = '<tr><td colspan="9">Error loading inventory. Please try again later.</td></tr>';
             });
     }
 });
