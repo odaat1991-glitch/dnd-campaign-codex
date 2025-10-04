@@ -11,22 +11,30 @@
 </head>
 <body>
 <header>
-{% if site.logo %} {% if site.logo contains 'nes-' %} {% else %} {% endif %} {% endif %}
-
-
-{{ SITE.TITLE | DEFAULT: SITE.GITHUB.REPOSITORY_NAME }}
-
+{% if site.logo %}
+  {% if site.logo contains 'nes-' %}
+    <i class="{{ site.logo }}"></i>
+  {% else %}
+    <img src="{{ site.logo | relative_url }}" alt="Logo" />
+  {% endif %}
+{% endif %}
+<h1>{{ site.title | default: site.github.repository_name }}</h1>
 <nav>
   <a href="/">Home</a>
-  <a href="/characters">Characters</a>
-  <a href="/map">Map</a>
-  <a href="/inventory">Inventory</a>
+  <a href="/characters.html">Characters</a>
+  <a href="/lore.html">Lore</a>
+  <a href="/map.html">Map</a>
+  <a href="/inventory.html">Inventory</a>
+  <a href="/player_info.html">Player Info</a>
   <a href="/dm_dashboard.html">DM Dashboard</a>
 </nav>
-
-{{ site.description | default: site.github.project_tagline }}
-
-{% if site.social %} {% include social.html %} {% endif %}
-{% if site.show_downloads %} {% include downloads.html %} {% endif %}
+<p>{{ site.description | default: site.github.project_tagline }}</p>
+{% if site.social %}
+  {% include social.html %}
+{% endif %}
+{% if site.show_downloads %}
+  {% include downloads.html %}
+{% endif %}
 </header>
-<main>
+</body>
+</html>
