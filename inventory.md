@@ -6,7 +6,7 @@ permalink: /inventory/
 
 ## Party Inventory
 
-<a href="https://docs.google.com/spreadsheets/d/1R2wH5K6E3dSZcRzR0kj5ADdXyBS7338LdIydnfujLa8/edit?usp=sharing" target="_blank" class="edit-button">Edit Inventory</a>
+<a class="edit-button" href="https://docs.google.com/spreadsheets/d/1R2wH5K6E3dSZcRzR0kj5ADdXyBS7338LdIydnfujLa8/edit?usp=sharing" target="_blank">Edit Inventory</a>
 
 <table class="inventory-table">
   <thead>
