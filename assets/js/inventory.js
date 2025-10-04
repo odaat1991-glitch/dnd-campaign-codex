@@ -27,35 +27,36 @@ document.addEventListener('DOMContentLoaded', () => {
                         continue;
                     }
                     
-                    // Limit to first 9 columns only
-                    const limitedColumns = columns.slice(0, 9);
-                    
-                    // Ensure we have valid data
-                    if (limitedColumns.length > 0) {
-                        const tr = document.createElement('tr');
-                        limitedColumns.forEach((columnText, index) => {
-                            const td = document.createElement('td');
-                            // Hide the text if it's the Attunement column and the value is FALSE
-                            if (index === 4 && columnText.toUpperCase() === 'FALSE') {
-                                td.textContent = '';
-                            } else {
-                                td.textContent = columnText;
-                            }
-                            tr.appendChild(td);
-                        });
-                        inventoryBody.appendChild(tr);
-                        validRowCount++;
+                    // Ensure exactly 9 columns for proper table alignment
+                    const alignedColumns = [];
+                    for (let j = 0; j < 9; j++) {
+                        alignedColumns.push(columns[j] || '');
                     }
+                    
+                    // Create table row with aligned columns
+                    const tr = document.createElement('tr');
+                    alignedColumns.forEach((columnText, index) => {
+                        const td = document.createElement('td');
+                        // Hide the text if it's the Attunement column and the value is FALSE
+                        if (index === 4 && columnText.toUpperCase() === 'FALSE') {
+                            td.textContent = '';
+                        } else {
+                            td.textContent = columnText;
+                        }
+                        tr.appendChild(td);
+                    });
+                    inventoryBody.appendChild(tr);
+                    validRowCount++;
                 }
                 
                 // If no valid rows were found, show a message
                 if (validRowCount === 0) {
-                    inventoryBody.innerHTML = '<tr><td colspan="9">No inventory items found.</td></tr>';
+                    inventoryBody.innerHTML = '<td colspan="9">No inventory items found.</td>';
                 }
             })
             .catch(error => {
                 console.error('Error fetching inventory data:', error);
-                inventoryBody.innerHTML = '<tr><td colspan="9">Error loading inventory. Please try again later.</td></tr>';
+                inventoryBody.innerHTML = '<td colspan="9">Error loading inventory. Please try again later.</td>';
             });
     }
 });
