@@ -30,6 +30,4 @@ permalink: /inventory/
   </tbody>
 </table>
 
-
-
 <script src="{{ '/assets/js/inventory.js' | relative_url }}"></script>
