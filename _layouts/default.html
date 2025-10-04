@@ -1,3 +1,24 @@
-{% include header.html %} {% if site.github.is_project_page %} {% include fork-me.html %} {% endif %}
+{% include header.html %}
+
+<!-- Medieval Navigation Bar -->
+<nav class="medieval-nav">
+  <div class="nav-banner">
+    <div class="banner-corner left"></div>
+    <div class="banner-center">
+      <ul class="nav-menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/characters">Characters</a></li>
+        <li><a href="/inventory">Inventory</a></li>
+        <li><a href="/lore">Lore</a></li>
+        <li><a href="/map">Map</a></li>
+        <li><a href="/player_info">Player Info</a></li>
+        <li><a href="/lansing_guild_complete.html">Guild Hall</a></li>
+      </ul>
+    </div>
+    <div class="banner-corner right"></div>
+  </div>
+</nav>
+
+{% if site.github.is_project_page %} {% include fork-me.html %} {% endif %}
 {{ content }}
 {% include footer.html %}
