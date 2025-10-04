@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const inventoryBody = document.getElementById('inventory-body');
-    const url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZcRd0tdl6X3PuHyjHR_zL4VX_L2mr_ZB48FI6DP0HNg8TrWylAZwrJe1e44ZutXhKyLtlYnDpLET/pub?gid=0&single=true&output=csv';
+    const url = 'https://api.allorigins.win/raw?url=https://docs.google.com/spreadsheets/d/e/2PACX-1vQLZcRd0tdl6X3PuHyjHR_zL4VX_L2mr_ZB48FI6DP0HNg8TrWylAZwrJe1e44ZutXhKyLtlYnDpLET/pub?gid=0&single=true&output=csv';
     if (inventoryBody) {
         fetch(url)
             .then(response => response.text())
