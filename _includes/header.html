@@ -10,31 +10,46 @@
     <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
 </head>
 <body>
-<header>
-{% if site.logo %}
-  {% if site.logo contains 'nes-' %}
-    <i class="{{ site.logo }}"></i>
-  {% else %}
-    <img src="{{ site.logo | relative_url }}" alt="Logo" />
-  {% endif %}
-{% endif %}
-<h1>{{ site.title | default: site.github.repository_name }}</h1>
-<nav>
-  <a href="/">Home</a>
-  <a href="/characters.html">Characters</a>
-  <a href="/lore.html">Lore</a>
-  <a href="/map.html">Map</a>
-  <a href="/inventory.html">Inventory</a>
-  <a href="/player_info.html">Player Info</a>
-  <a href="/dm_dashboard.html">DM Dashboard</a>
-</nav>
-<p>{{ site.description | default: site.github.project_tagline }}</p>
-{% if site.social %}
-  {% include social.html %}
-{% endif %}
-{% if site.show_downloads %}
-  {% include downloads.html %}
-{% endif %}
+<header role="banner" class="site-header">
+  <div class="header-container">
+    {% if site.logo %}
+      {% if site.logo contains 'nes-' %}
+        <i class="{{ site.logo }}" aria-hidden="true"></i>
+      {% else %}
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} Logo" class="site-logo">
+      {% endif %}
+    {% endif %}
+    
+    <h1 class="site-title">
+      <a href="/" aria-label="Home - {{ site.title | default: site.github.repository_name }}">
+        {{ site.title | default: site.github.repository_name }}
+      </a>
+    </h1>
+    
+    <nav role="navigation" aria-label="Main Navigation" class="main-nav">
+      <ul class="nav-list">
+        <li><a href="/" aria-current="{% if page.url == '/' %}page{% endif %}" tabindex="0">Home</a></li>
+        <li><a href="/characters.html" aria-current="{% if page.url contains 'characters' %}page{% endif %}" tabindex="0">Characters</a></li>
+        <li><a href="/lore.html" aria-current="{% if page.url contains 'lore' %}page{% endif %}" tabindex="0">Lore</a></li>
+        <li><a href="/map.html" aria-current="{% if page.url contains 'map' %}page{% endif %}" tabindex="0">Map</a></li>
+        <li><a href="/inventory.html" aria-current="{% if page.url contains 'inventory' %}page{% endif %}" tabindex="0">Inventory</a></li>
+        <li><a href="/player_info.html" aria-current="{% if page.url contains 'player_info' %}page{% endif %}" tabindex="0">Player Info</a></li>
+        <li><a href="/dm_dashboard.html" aria-current="{% if page.url contains 'dm_dashboard' %}page{% endif %}" tabindex="0">DM Dashboard</a></li>
+      </ul>
+    </nav>
+    
+    {% if site.description or site.github.project_tagline %}
+    <p class="site-description" role="doc-subtitle">
+      {{ site.description | default: site.github.project_tagline }}
+    </p>
+    {% endif %}
+    
+    {% if site.social %}
+      {% include social.html %}
+    {% endif %}
+    
+    {% if site.show_downloads %}
+      {% include downloads.html %}
+    {% endif %}
+  </div>
 </header>
-</body>
-</html>
