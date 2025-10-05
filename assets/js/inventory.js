@@ -1,11 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const inventoryBody = document.getElementById('inventory-body');
-  const url = '/assets/json/inventory-data.json';
-
+  const url = './assets/json/inventory-data.json';
   if (!inventoryBody) return;
-
-  inventoryBody.innerHTML = '<tr><td colspan="9" style="text-align:center; font-style:italic;">Loading inventory...</td></tr>';
-
+  inventoryBody.innerHTML = '<td colspan="9" style="text-align:center; font-style:italic;">Loading inventory...</td>';
   fetch(url)
     .then(response => {
       if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -14,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => {
       inventoryBody.innerHTML = '';
       if (!Array.isArray(data) || data.length === 0) {
-        inventoryBody.innerHTML = '<tr><td colspan="9" style="text-align:center; color:#8b1a1a;">No inventory items found.</td></tr>';
+        inventoryBody.innerHTML = '<td colspan="9" style="text-align:center; color:#8b1a1a;">No inventory items found.</td>';
         return;
       }
       data.forEach(item => {
@@ -40,6 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => {
       console.error('Error loading inventory JSON:', error);
-      inventoryBody.innerHTML = '<tr><td colspan="9" style="text-align:center; color:#d32f2f;">Error loading inventory. Please try again later.</td></tr>';
+      inventoryBody.innerHTML = '<td colspan="9" style="text-align:center; color:#d32f2f;">Error loading inventory. Please try again later.</td>';
     });
 });
